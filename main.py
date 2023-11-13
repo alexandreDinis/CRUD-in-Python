@@ -4,15 +4,6 @@ import keyboard
 opc = Operations_Crud()
 
 
-def button_confirmation():
-    while True:
-        op = input('Are you sure want to take this action [Y][N] ')
-        if op.lower() == 'Y':
-            continue
-        else:
-            break
-
-
 def insert_menu():
     print('Insert menu\n')
     name = input('Enter name ')
